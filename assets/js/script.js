@@ -1,25 +1,39 @@
 
-document.addEventListener("DOMContentLoaded", function() {
 
+
+
+//function userChoice(){
+    document.addEventListener("DOMContentLoaded", function() {
+    let buttons = document.getElementsByTagName("button");
+
+    for (let button of buttons) {
+     button.addEventListener("click", function(event){
+     let players = event.target.id 
+    console.log(players);
+  })
+  
 }
-
-
-
-function userChoice(){
-
 }
+r//eturn userChoice()
+//}
 
 function computerChoice(){
 
+    let hands = ["rock","paper","scissor","lizard","spock"]
+    let compChoice = Math.floor(Math.random()*hands.length);
+    return hands[compChoice];
+
 }
 
+/**
+ * Gets the users winning score
+ */
 function userScore() {
    
 }
 
 /**
- * Gets the current tally of incorrect answers from the DOM and increments it by 1
+ * Gets the computers winning score
  */
 function computerScore() {
-  
-}
+};
