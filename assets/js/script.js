@@ -12,17 +12,8 @@
 });
 
 function userChoice(){
-  
   let  players = event.target.id  
-//console.log(players)
   return players 
-   //
-   
- // console.log(players)
-   // return userChoice(event)
-  
-   //return userChoice(players)
-   
 }
 
 
@@ -37,11 +28,65 @@ function computerChoice(){
 function chooseWinner(){
  playerSelction = userChoice()
  compSelection = computerChoice()
-
+ let result = '';
 if (playerSelction === compSelection) {
+  result = 'Draw!';
   console.log("Draw")
-  document.getElementById('score').innerHTML = `Draw: You Picked ${playerSelction} Computer Picked ${compSelection} ` 
-}//else if 
+
+  // document.getElementById('score').innerHTML = `Draw: You Picked ${playerSelction} Computer Picked ${compSelection} ` 
+}
+
+else if (playerSelction === 'rock'){
+    if (compSelection === 'paper' || compSelection ===  'spock'){
+        result = 'You lose!';
+        computerScore()
+    } else {
+        result = 'You win!';
+        userScore()
+    }
+}
+
+else if (playerSelction === 'paper'){
+    if (compSelection === 'lizard' || compSelection ===  'scissor'){
+        result = 'You lose!';
+        computerScore()
+    } else {
+        result = 'You win!';
+        userScore()
+    }
+}
+
+else if (playerSelction === 'scissor'){
+    if (compSelection === 'spock' || compSelection ===  'rock'){
+        result = 'You lose!';
+        computerScore()
+    } else {
+        result = 'You win!';
+        userScore()
+    }
+}
+
+else if (playerSelction === 'lizard'){
+    if (compSelection === 'rock' || compSelection ===  'scissor'){
+        result = 'You lose!';
+        computerScore()
+    } else {
+        result = 'You win!';
+        userScore()
+    }
+}
+
+else if (playerSelction === 'spock'){
+    if (compSelection === 'paper' || compSelection === 'lizard'){
+        result = 'You lose!';
+        computerScore()
+    } else {
+        result = 'You win!';
+        userScore()
+    }
+}
+
+document.getElementById('score').innerHTML =  ` You Picked ${playerSelction} Computer Picked ${compSelection} ` + result; 
 
 console.log(playerSelction)
 console.log(compSelection)
