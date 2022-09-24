@@ -28,7 +28,7 @@ function computerChoice(){
 function chooseWinner(){
  playerSelction = userChoice()
  compSelection = computerChoice()
- let result = '';
+let result = '';
 if (playerSelction === compSelection) {
   result = 'Draw!';
   console.log("Draw")
@@ -97,11 +97,14 @@ console.log(compSelection)
  * Gets the users winning score
  */
 function userScore() {
-   
+  let userScore = parseInt(document.getElementById('userwins').innerText);
+  document.getElementById('userwins').innerHTML = ++userScore;
 }
 
 /**
  * Gets the computers winning score
  */
 function computerScore() {
+  let compScore = parseInt(document.getElementById('computerwins').innerText);
+  document.getElementById('computerwins').innerHTML = ++compScore;
 };
