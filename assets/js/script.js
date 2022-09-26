@@ -6,7 +6,10 @@
      button.addEventListener("click", function(event){
      userChoice(event)
      chooseWinner()
-  })
+  }
+  
+  );
+  
   }
   
 });

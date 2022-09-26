@@ -1,12 +1,13 @@
 body {
-    background-color: white;
+    background-color: #9cc3d5ff;
     font-family: "Raleway", sans-serif;
-    color: #445361;
+    min-width: 310;;
     text-align: center;
 }
 
 .game-area {
-    background-color: #E6ECF0;
+    background-color: #0063B2FF;
+    color: #cde2f6;
     box-sizing: border-box;
     width: 85%;
     height: 65vh;
@@ -48,3 +49,72 @@ p{
 .btn:focus {
     outline: none;
 }
+
+.scores span {
+    color:rgb(0, 0, 0)
+}
+
+.scores {
+    display: inline-block;
+    padding: 25px;
+}
+
+/* --------- Media queries */
+
+@media (max-width: 650px) {
+    h1{
+        font-size: medium;
+    }
+
+
+    @media (max-width: 450px) {
+
+        .game-area{
+                 height: 100vh; 
+                 max-height: 550px;
+        }
+        .hand-selection {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+           
+        }
+
+        .btn {
+            width: 200px;
+            height: 50px;
+            font-family: "Raleway", sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 1.3px;
+            color: black;
+            margin: 3px;
+            
+        }
+
+        @media (max-width: 450px) {
+
+            h1{
+                font-size: small;
+            }
+ 
+.game-area {
+   font-size: small;
+}
+
+@media (max-width: 356px) {
+
+    h1{
+        font-size: x-small;
+    }
+
+.game-area {
+font-size: x-small;
+max-height: 500px;
+
+}
+
+.btn {
+    width: 180px;
+    height: 40px;
+}
+
