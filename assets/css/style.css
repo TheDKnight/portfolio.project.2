@@ -1,7 +1,12 @@
 body {
     background-color: #9cc3d5ff;
     font-family: "Raleway", sans-serif;
-    min-width: 310;
+    min-width: 310px;
+    text-align: center;
+}
+
+/* Footer copyright Text */
+footer p {
     text-align: center;
 }
 
