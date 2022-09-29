@@ -8,7 +8,8 @@ body {
 .game-area {
     background-color: #0063B2FF;
     color: #cde2f6;
-    box-sizing: border-box;
+    box-sizing: border-box;#
+    
     width: 85%;
     height: 65vh;
     max-height: 450px;
@@ -30,6 +31,7 @@ body {
 p{
     
     align-self: center;
+    font-size: 22px;
 }
 
 
@@ -100,6 +102,9 @@ p{
 .game-area {
    font-size: small;
 }
+p{
+font-size: 15px; 
+}
 
 @media (max-width: 356px) {
 
@@ -115,14 +120,9 @@ max-height: 500px;
 
 .btn {
     width: 180px;
-    height: 40px;
+    height: 32px;
 }
 
-@media (max-width: 356px) {
-
-
-
-.btn {
-    width: 180px;
-    height: 30px;
-}
+p{
+    font-size: 12px; 
+    }
