@@ -38,13 +38,13 @@ The game can be visted here. https://thedknight.github.io/portfolio.project.2/
 This is the wireframe i created of the project.
 A simple version of the game that allows the user to select a card and the computer will pick a card and the result will be shown of the user.
 
-<img src="assets/images/readme.images/pp2.png" alt="project wireframe">
+<img src="/assets/images/readme.images/pp2.png" alt="project wireframe">
 
 
 ### 5. Surface
 * Colours
     * The two main colors used for the css were. #9cc3d5ff For the background and #0063B2FF for the game area.
-<img src="assets/images/readme.images/colors.png" alt="color pallette">
+<img src="/assets/images/readme.images/colors.png" alt="color pallette">
 
 * Font Selection
     * The font used was  "Raleway" with sans-serif as backup.
@@ -64,20 +64,20 @@ A simple version of the game that allows the user to select a card and the compu
 
   Passing the HTML from all templates and base into the W3C Markup Validator no errors have been found [W3C validator](https://validator.w3.org/).
   Code Validation results:
- <img src="assets/images/readme.images/htmlcheck.jpg)" alt ="Html code checked passed">
+ <img src="/assets/images/readme.images/htmlcheck.jpg)" alt ="Html code checked passed">
 
 
 + CSS
 
 No errors were found when passing through the official [W3C validator](https://jigsaw.w3.org/css-validator/). 
 
-<img src="assets/images/readme.images/cssval.jpg)" alt ="css code check passed">
+<img src="/assets/images/readme.images/cssval.jpg)" alt ="css code check passed">
 
 + Javascript
 
 No errors were found when passing through the official [JShint validator](https://jshint.com/). 
 
-<img src="assets/images/readme.images/jshint.jpg)" alt ="jshint code check passed">
+<img src="/assets/images/readme.images/jshint.jpg)" alt ="jshint code check passed">
 
 ## Manual Testing
 
@@ -102,10 +102,10 @@ No errors were found when passing through the official [JShint validator](https:
 * Screenshots shown as below from what the user sees and what the console sees.
 
 ### User View
-<img src="assets/images/readme.images/bug.jpg)" alt="user view of the bug"> 
+<img src="/assets/images/readme.images/bug.jpg)" alt="user view of the bug"> 
 
 ### Console View
-<img src="assets/images/readme.images/bug2.jpg)" alt="console view of the bug"> 
+<img src="/assets/images/readme.images/bug2.jpg)" alt="console view of the bug"> 
 
 ## Deployment
 
