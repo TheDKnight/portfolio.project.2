@@ -2,12 +2,11 @@ body {
     background-color: #9cc3d5ff;
     font-family: "Raleway", sans-serif;
     min-width: 310;
-    ;
     text-align: center;
 }
 
 
-/* Game Area CSS*/
+/* Game Area*/
 .game-area {
     background-color: #0063B2FF;
     color: #cde2f6;
@@ -72,12 +71,22 @@ p {
 
 }
 
-@media (max-width: 450px) {
+
+
+@media (max-width: 510px) {
+
 
     .game-area {
         height: 100vh;
         max-height: 550px;
+        font-size: 12px;
     }
+
+}
+
+
+@media (max-width: 450px) {
+
 
     .hand-selection {
         display: flex;
@@ -89,29 +98,21 @@ p {
     .btn {
         width: 200px;
         height: 50px;
-        font-family: "Raleway", sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 1.3px;
-        color: black;
-        margin: 3px;
+
 
     }
-}
-
-@media (max-width: 450px) {
 
     h1 {
         font-size: small;
     }
 
-    .game-area {
-        font-size: small;
-    }
 
     p {
-        font-size: 15px;
+        font-size: 12px;
     }
+
 }
+
 
 @media (max-width: 356px) {
 
@@ -133,4 +134,16 @@ p {
     p {
         font-size: 12px;
     }
+}
+
+@media (max-width: 280px) {
+
+
+
+    .btn {
+        width: 170px;
+        height: 30px;
+    }
+
+
 }
