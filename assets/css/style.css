@@ -131,9 +131,7 @@ p {
         height: 32px;
     }
 
-    p {
-        font-size: 12px;
-    }
+
 }
 
 @media (max-width: 280px) {
