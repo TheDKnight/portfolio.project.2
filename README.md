@@ -64,20 +64,20 @@ A simple version of the game that allows the user to select a card and the compu
 
   Passing the HTML from all templates and base into the W3C Markup Validator no errors have been found [W3C validator](https://validator.w3.org/).
   Code Validation results:
- <img src="/assets/images/readme.images/htmlcheck.jpg)" alt ="Html code checked passed">
+ <img src="/assets/images/readme.images/htmlcheck.jpg" alt ="Html code checked passed">
 
 
 + CSS
 
 No errors were found when passing through the official [W3C validator](https://jigsaw.w3.org/css-validator/). 
 
-<img src="/assets/images/readme.images/cssval.jpg)" alt ="css code check passed">
+<img src="/assets/images/readme.images/cssval.jpg" alt ="css code check passed">
 
 + Javascript
 
 No errors were found when passing through the official [JShint validator](https://jshint.com/). 
 
-<img src="/assets/images/readme.images/jshint.jpg)" alt ="jshint code check passed">
+<img src="/assets/images/readme.images/jshint.jpg" alt ="jshint code check passed">
 
 ## Manual Testing
 
@@ -102,10 +102,10 @@ No errors were found when passing through the official [JShint validator](https:
 * Screenshots shown as below from what the user sees and what the console sees.
 
 ### User View
-<img src="/assets/images/readme.images/bug.jpg)" alt="user view of the bug"> 
+<img src="/assets/images/readme.images/bug.jpg" alt="user view of the bug"> 
 
 ### Console View
-<img src="/assets/images/readme.images/bug2.jpg)" alt="console view of the bug"> 
+<img src="/assets/images/readme.images/bug2.jpg" alt="console view of the bug"> 
 
 ## Deployment
 
